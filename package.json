@@ -1,0 +1,20 @@
+{
+  "name": "ts-oo-api",
+  "version": "0.0.1",
+  "description": "Object Oriented API framework written in TypeScript & Node.js",
+  "main": "src/dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/scripts/map-controllers && tsc && node dist/main.js",
+    "build": "node src/scripts/map-controllers && tsc"
+  },
+  "author": "Adam Filipek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "typescript": "^2.9.2"
+  }
+}
